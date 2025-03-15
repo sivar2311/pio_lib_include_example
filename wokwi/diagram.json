@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [ { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 48, "left": -743.96, "attrs": {} } ],
+  "connections": [ [ "esp:TX", "$serialMonitor:RX", "", [] ], [ "esp:RX", "$serialMonitor:TX", "", [] ] ],
+  "dependencies": {},
+  "serialMonitor": {
+    "display": "auto",
+    "newline": "crlf",
+    "convertEol": false
+  }
+}
